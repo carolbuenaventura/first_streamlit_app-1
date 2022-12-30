@@ -44,3 +44,6 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #streamlit.dataframe(fruityvice_normalized)
 
 
+streamlit.write('The user entered ', fruit_choice)
+
+
