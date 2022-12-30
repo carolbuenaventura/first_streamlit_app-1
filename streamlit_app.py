@@ -36,7 +36,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice )
 # --delete as per instruction - streamlit.text(fruityvice_response.json()) # just writes the data to the screen
 
 # take the json version of the response and normalize it
