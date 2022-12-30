@@ -42,6 +42,6 @@ import requests
 # take the json version of the response and normalize it
 #2fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #output it the screen as a table
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
 
