@@ -51,8 +51,8 @@ except URLerror as E:
 # Display the table on the page
 
 #--1a fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
-fruit_choice = streamlit.text_input('What fruit would you like information about?')
-streamlit.write('The user entered ', fruit_choice)
+#--1aafruit_choice = streamlit.text_input('What fruit would you like information about?')
+# -1bbstreamlit.write('The user entered ', fruit_choice)
 
 
 
