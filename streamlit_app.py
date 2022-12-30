@@ -59,7 +59,7 @@ except URLerror as E:
 
 
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+# --1ccc fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 
 
